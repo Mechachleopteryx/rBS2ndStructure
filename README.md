@@ -12,7 +12,7 @@ devtools::install_github("ZhenWei10/rBS2ndStructure")
 library(rBS2ndStructure)
 ```
 
--   Then, you could use the following data of RNA secondary structures provided by the package. Use `?` to check their documentations.
+-   Then, you could use the following data containing the ranges of the structures provided by the package. Use `?` to check their documentations.
 
 ``` r
 library(GenomicRanges)
