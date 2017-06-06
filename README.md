@@ -29,7 +29,7 @@ rBS_gr = GRanges(seqnames = rBS_df$`#SeqID`, strand = rBS_df$refStrand, ranges =
 rBS_gr_filtered <- rBS_gr[!rBS_gr %over% Struc_hg19]
 ```
 
--   Alternatively, you could try to filter the sites overlapped with RNA secondary structure with the provided function, this function also helps you mask all the sites on introns and intergenic sequences.
+-   Alternatively, you could try to filter the sites overlapped with RNA secondary structure with the function `rBS_2ndStructure_Filter`, the function also helps you mask all the sites on introns and intergenic sequences.
 
 ``` r
 rBS_gr = GRanges(seqnames = rBS_df$`#SeqID`, strand = rBS_df$refStrand, ranges = IRanges(start = rBS_df$refPos, width = 1))
@@ -57,4 +57,4 @@ RNAfold(1:30,"Large","Flg")
 rfold_assembly_tx(txdb,RfdNames = c("Fsm","Fmd","Flg"))
 ```
 
--   Notice that you could run RNAfold on command line by yourself, the function RNAfold only works if you implements `qsub` command on your computer system.
+-   Notice that you could run `RNAfold` on command line by yourself, the function `RNAfold` only works if you implement `qsub` command on your computer system.
