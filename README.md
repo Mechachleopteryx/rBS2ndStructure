@@ -3,7 +3,7 @@
 Instructions of the usage of rBS2ndStructure
 --------------------------------------------
 
-This package provides thermal stable RNA 2ndary structures predicted on full length transcripts mm10 and hg19. The RNA secondary structures are used to filter the bisulfite sequening sites that potentially have incomplete bisulfite conversion on thermal stable RNA secondary structures.
+This package provides thermal stable RNA 2ndary structures predicted on full length transcripts mm10 and hg19. The predicted structures are used to filter the bisulfite sequening sites that have potentially incomplete bisulfite conversion on them.
 
 -   First, install the package in R
 
@@ -12,7 +12,7 @@ devtools::install_github("ZhenWei10/rBS2ndStructure")
 library(rBS2ndStructure)
 ```
 
--   Then, you could use the following RNA secondary structures data provided by the package. Use `?` to check their detail documentations.
+-   Then, you could use the following data of RNA secondary structures provided by the package. Use `?` to check their documentations.
 
 ``` r
 library(GenomicRanges)
@@ -29,7 +29,7 @@ rBS_gr = GRanges(seqnames = rBS_df$`#SeqID`, strand = rBS_df$refStrand, ranges =
 rBS_gr_filtered <- rBS_gr[!rBS_gr %over% Struc_hg19]
 ```
 
--   Alternatively, you could try to filter the sites overlapped with RNA secondary structure with the function `rBS_2ndStructure_Filter`, the function also helps you mask all the sites on introns and intergenic sequences.
+-   Alternatively, you could try to filter the sites overlapped with RNA secondary structures with the function `rBS_2ndStructure_Filter`, the function also helps you mask all the sites on introns and intergenic sequences.
 
 ``` r
 rBS_gr = GRanges(seqnames = rBS_df$`#SeqID`, strand = rBS_df$refStrand, ranges = IRanges(start = rBS_df$refPos, width = 1))
