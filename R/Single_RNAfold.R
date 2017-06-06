@@ -12,10 +12,12 @@
 #' 
 #' @return This function will return the code of RNAfold that can directly run in the terminal.
 #' 
-#' @seealso \code{\link{tx_seq_extraction}}, \code{\link{RNAfold}}, and \code{\link{rfold_assembly}}
+#' @seealso \code{\link{tx_seq_extraction}}, \code{\link{RNAfold}}, and \code{\link{rfold_assembly_tx}}
 #' 
 #' @examples 
 #' cat(Single_RNAfold(1,"Small","gsmall"))
+#' 
+#' @export
 #' 
 #' \dontrun{
 #' tx_seq_extraction(MMusculus,txdb,getwd()) 

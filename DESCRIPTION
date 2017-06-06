@@ -3,8 +3,8 @@ Type: Package
 Title: Filter the thermal stable RNA secondary structure
 Version: 1.0
 Date: 2017-05-26
-Author: ZhenWei
-Maintainer: Zhen.Wei@xjtlu.edu.cn
+Author: Zhen Wei
+Maintainer: Zhen Wei <Zhen.Wei@xjtlu.edu.cn>
 Description: This package provides thermal stable RNA 2ndary structures predicted on full length transcripts mm10 and hg19. The RNA secondary structures are used to filter the bisulfite sequening sites that potentially have incomplete bisulfite conversion on thermal stable RNA secondary structures.
 License: What license is it under?
 LazyData: true

@@ -47,5 +47,5 @@ tx_seq_extraction(MMusculus,txdb,getwd())
 }
 }
 \seealso{
-\code{\link{RNAfold}}, \code{\link{Single_RNAfold}}, and \code{\link{rfold_assembly}}
+\code{\link{RNAfold}}, \code{\link{Single_RNAfold}}, and \code{\link{rfold_assembly_tx}}
 }

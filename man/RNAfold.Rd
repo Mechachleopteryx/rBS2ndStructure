@@ -28,5 +28,5 @@ RNAfold(1:30,"Small","gsmall")
 }
 }
 \seealso{
-\code{\link{tx_sea_extraction}}, \code{\link{Single_RNAfold}}, and \code{\link{rfold_assembly}}
+\code{\link{tx_seq_extraction}}, \code{\link{Single_RNAfold}}, and \code{\link{rfold_assembly_tx}}
 }

@@ -13,7 +13,9 @@
 #'
 #' @param OutPutNames The output names of the RNAfold.
 #' 
-#' @seealso \code{\link{tx_sea_extraction}}, \code{\link{Single_RNAfold}}, and \code{\link{rfold_assembly}}
+#' @seealso \code{\link{tx_seq_extraction}}, \code{\link{Single_RNAfold}}, and \code{\link{rfold_assembly_tx}}
+#' 
+#' @export
 #' 
 #' @examples 
 #' \dontrun{ 

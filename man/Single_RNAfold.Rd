@@ -25,12 +25,7 @@ This R function is used to generate the single bash command of RNAfold, which is
 \examples{
 cat(Single_RNAfold(1,"Small","gsmall"))
 
-\dontrun{
-tx_seq_extraction(MMusculus,txdb,getwd()) 
-system(Single_RNAfold(1,"Small","gsmall"))
-}
-
 }
 \seealso{
-\code{\link{tx_seq_extraction}}, \code{\link{RNAfold}}, and \code{\link{rfold_assembly}}
+\code{\link{tx_seq_extraction}}, \code{\link{RNAfold}}, and \code{\link{rfold_assembly_tx}}
 }

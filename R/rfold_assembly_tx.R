@@ -15,8 +15,11 @@
 #' 
 #' @return A \code{GRangesList} object, each element of it represents the MEA RNA structures in a transcript.
 #' 
-#' @seealso \code{\link{tx_sea_extraction}}, \code{\link{RNAfold}}, and \code{\link{Single_RNAfold}}
+#' @seealso \code{\link{tx_seq_extraction}}, \code{\link{RNAfold}}, and \code{\link{Single_RNAfold}}
+#' @export
+#'  
 #' @examples 
+#' 
 #' \dontrun{ 
 #' library(BSgenome.Mmusculus.UCSC.mm10)
 #' library(TxDb.Mmusculus.UCSC.mm10.knownGene)

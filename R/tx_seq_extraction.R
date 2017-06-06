@@ -20,7 +20,9 @@
 #' 
 #' The number of the fasta files is determined by the argument \code{divide_num}.
 #' 
-#' @seealso \code{\link{RNAfold}}, \code{\link{Single_RNAfold}}, and \code{\link{rfold_assembly}}
+#' @seealso \code{\link{RNAfold}}, \code{\link{Single_RNAfold}}, and \code{\link{rfold_assembly_tx}}
+#' 
+#' @export
 #' 
 #' @examples 
 #' \dontrun{

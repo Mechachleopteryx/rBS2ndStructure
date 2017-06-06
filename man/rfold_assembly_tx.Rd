@@ -34,6 +34,7 @@ A \code{GRangesList} object, each element of it represents the MEA RNA structure
 \code{rfold_assembly_tx} is used to assemble the output files of the RNAfold into a GRangesList object.
 }
 \examples{
+
 \dontrun{ 
 library(BSgenome.Mmusculus.UCSC.mm10)
 library(TxDb.Mmusculus.UCSC.mm10.knownGene)
@@ -47,5 +48,5 @@ rfold_assembly_tx(txdb,RfdNames = c("Fsm","Fmd","Flg"))
 
 }
 \seealso{
-\code{\link{tx_sea_extraction}}, \code{\link{RNAfold}}, and \code{\link{Single_RNAfold}}
+\code{\link{tx_seq_extraction}}, \code{\link{RNAfold}}, and \code{\link{Single_RNAfold}}
 }
