@@ -41,6 +41,7 @@ rBS_gr_filtered <- rBS_2ndStructure_Filter(rBS_gr,"hg19")
 
 ``` r
 #Extract transcript sequences in fasta files from BSgenome and txdb
+
 library(BSgenome.Mmusculus.UCSC.mm10)
 library(TxDb.Mmusculus.UCSC.mm10.knownGene)
 txdb <- TxDb.Mmusculus.UCSC.mm10.knownGene
