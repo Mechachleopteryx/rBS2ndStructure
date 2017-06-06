@@ -1,15 +1,16 @@
 Package: rBS2ndStructure
 Type: Package
-Title: What the package does (short line)
+Title: Filter the thermal stable RNA secondary structure
 Version: 1.0
 Date: 2017-05-26
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Author: ZhenWei
+Maintainer: Zhen.Wei@xjtlu.edu.cn
+Description: This package provides thermal stable RNA 2ndary structures predicted on full length transcripts mm10 and hg19. The RNA secondary structures are used to filter the bisulfite sequening sites that potentially have incomplete bisulfite conversion on thermal stable RNA secondary structures.
 License: What license is it under?
 LazyData: true
 Imports: dplyr,
     readr,
     BSgenome,
-    GenomicFeatures
+    GenomicFeatures,
+    GenomicRanges
 RoxygenNote: 6.0.1
