@@ -16,7 +16,7 @@
 #' }
 #' @usage 
 #' rBS_gr = GRanges(seqnames = rBS_df$`#SeqID`, strand = rBS_df$refStrand, ranges = IRanges(start = rBS_df$refPos, width = 1))
-#' rBS_gr_filtered <- rBS_gr[!rBS_gr %over% Struc_mm10]
+#' rBS_gr_filtered <- rBS_gr[!rBS_gr \%over\% Struc_mm10]
 #' @note For other filtering strategies, please check \code{\link{rBS_2ndStructure_Filter}}
 "Struc_mm10"
 
@@ -36,7 +36,7 @@
 #' }
 #' @usage 
 #' rBS_gr = GRanges(seqnames = rBS_df$`#SeqID`, strand = rBS_df$refStrand, ranges = IRanges(start = rBS_df$refPos, width = 1))
-#' rBS_gr_filtered <- rBS_gr[!rBS_gr %over% Struc_hg19]
+#' rBS_gr_filtered <- rBS_gr[!rBS_gr \%over\% Struc_hg19]
 #' @note For other filtering strategies, please check \code{\link{rBS_2ndStructure_Filter}}
 "Struc_hg19"
 
@@ -69,3 +69,4 @@
 #'  
 #' @format A GRangesList object with length 54070.
 "exbytx_hg19"
+

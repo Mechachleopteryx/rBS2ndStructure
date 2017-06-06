@@ -1,7 +1,6 @@
 #' @title Extract the full length transcripts sequences
 #'
 #' @description \code{tx_seq_extraction} is used to extract the fasta files of the full length transcripts.
-#'  
 #' @param BS_genome the \code{BSgenome} object of your organism.
 #' @param TXDB the \code{txdb} object of your organism.
 #' @param Write_PATH the path to write the transcript sequences.
@@ -104,3 +103,4 @@ dividing_saver(Sequences_middle,divide_num,"Middle")
 setwd("../Large")
 dividing_saver(Sequences_large,divide_num,"Large")
 }
+
