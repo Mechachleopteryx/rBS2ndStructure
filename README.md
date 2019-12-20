@@ -8,7 +8,7 @@ This package provides thermal stable RNA 2ndary structures predicted on full len
 -   First, install the package in R
 
 ``` r
-devtools::install_github("ZhenWei10/rBS2ndStructure")
+devtools::install_github("ZW-xjtlu/rBS2ndStructure")
 library(rBS2ndStructure)
 ```
 
